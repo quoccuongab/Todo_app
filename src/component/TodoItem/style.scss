@@ -1,0 +1,24 @@
+.todo-item {
+    width: 800px;
+    margin: 20px;
+    .catalog {
+        display: flex;
+    }
+    &-table {
+        display: flex;
+        justify-content: space-around;
+        flex: 20 60 20;
+        .todo-id {
+            flex: 1;
+        }
+        .todo-name {
+            flex: 2;
+        }
+        .group-button {
+            flex: 1;
+        }
+        .group-button > * {
+            margin-right: 20px;
+        }
+    }
+}

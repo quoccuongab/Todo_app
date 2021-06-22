@@ -1,0 +1,13 @@
+.catalog {
+    display: flex;
+    width: 800px;
+    .id {
+        flex: 1;
+    }
+    .name {
+        flex: 3;
+    }
+    .detail {
+        flex: 1;
+    }
+}
